@@ -1,0 +1,61 @@
+
+.project-form {
+  margin-bottom: 20px;
+}
+
+.project-form input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.project-form button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: rgb(202, 120, 171);
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-list {
+  border: 2px solid blue;
+  padding: 20px;
+  background-color: rgba(62, 115, 122, 0.8);
+  border-radius: 10px;
+}
+
+.project-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: lightblue;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.project-actions {
+  margin-top: 10px;
+}
+
+.project-actions button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-actions button:first-child {
+  background-color: orange;
+  color: rgb(228, 192, 192);
+}
+
+.project-actions button:last-child {
+  background-color: red;
+  color: rgb(167, 134, 134);
+}
